@@ -42,7 +42,11 @@ func main() {
 	bot := slackbot.New(slackToken)
 
 	toMe := bot.Messages(slackbot.DirectMessage, slackbot.DirectMention).Subrouter()
-	toMe.Hear("^ping$").MessageHandler(slackhandlers.PingHandler)
+
+	// Slack Handler Config
+	for triggerPhrase, messageHandler := range slackhandlers.GetTriggerPhraseMapping() {
+		toMe.Hear(triggerPhrase).MessageHandler(messageHandler)
+	}
 
 	zap.L().Info("Starting destinybot for slack RTM")
 	go bot.Run()
