@@ -1,7 +1,7 @@
 package slackhandlers
 
 import (
-	slackbot "github.com/beepboophq/go-slackbot"
+	slackbot "github.com/mrhwick/go-slackbot"
 	"github.com/nlopes/slack"
 	"go.uber.org/zap"
 	"golang.org/x/net/context"

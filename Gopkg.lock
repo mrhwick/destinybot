@@ -2,12 +2,6 @@
 
 
 [[projects]]
-  branch = "master"
-  name = "github.com/beepboophq/go-slackbot"
-  packages = ["."]
-  revision = "58027c0d5238a0604305652ea526b3c18a7cead1"
-
-[[projects]]
   name = "github.com/fsnotify/fsnotify"
   packages = ["."]
   revision = "629574ca2a5df945712d3079857300b5e4da0236"
@@ -130,6 +124,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "d54468b0bc4f1dd9157d65a7e434f405821f6ba5802e2f8a89a002ff1579f3bc"
+  inputs-digest = "4fe0f588a9ee1ecca9867f40e2434dbe5ae9481f5b35dda22afbf3e43764e3e3"
   solver-name = "gps-cdcl"
   solver-version = 1
