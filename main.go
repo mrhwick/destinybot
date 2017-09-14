@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	slackbot "github.com/beepboophq/go-slackbot"
-	"github.com/mrhwick/destinybot/handlers"
 	"github.com/mrhwick/destinybot/slackhandlers"
+	"github.com/mrhwick/destinybot/webhandlers"
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 )
@@ -48,7 +48,7 @@ func main() {
 	go bot.Run()
 
 	mux := http.NewServeMux()
-	mux.HandleFunc("/", handlers.HelloWorldHandler)
+	mux.HandleFunc("/", webhandlers.HelloWorldHandler)
 
 	hostPort := "0.0.0.0:3000"
 
