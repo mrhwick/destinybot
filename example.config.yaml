@@ -1,0 +1,4 @@
+slack:
+  token: <insert custom slackbot token here>
+bungie:
+  api-token: <insert bungie API app token here>
