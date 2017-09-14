@@ -1,6 +1,6 @@
 # destinybot
 
-Introducing `@destinybot`, a slackbot for destiny guilds that use slack for communication.
+Introducing `@destinybot`, a slackbot for destiny clans that use slack for communication.
 
 ## Slack Usage Commands
 
