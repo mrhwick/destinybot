@@ -4,9 +4,9 @@ import (
 	"flag"
 	"net/http"
 
-	slackbot "github.com/beepboophq/go-slackbot"
 	"github.com/mrhwick/destinybot/slackhandlers"
 	"github.com/mrhwick/destinybot/webhandlers"
+	slackbot "github.com/mrhwick/go-slackbot"
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 )

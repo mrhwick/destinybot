@@ -23,7 +23,7 @@
 
 [[constraint]]
   branch = "master"
-  name = "github.com/beepboophq/go-slackbot"
+  name = "github.com/mrhwick/go-slackbot"
 
 [[constraint]]
   name = "github.com/nlopes/slack"

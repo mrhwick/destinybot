@@ -32,6 +32,12 @@
   revision = "d0303fe809921458f417bcf828397a65db30a7e4"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/mrhwick/go-slackbot"
+  packages = ["."]
+  revision = "e56382a08e8b72fec8440d6ad82f437f00d01abd"
+
+[[projects]]
   name = "github.com/nlopes/slack"
   packages = ["."]
   revision = "c86337c0ef2486a15edd804355d9c73d2f2caed1"
@@ -124,6 +130,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "966f6febe6b6aeaf86265d8dfeffccd5cf068204cac3548de52190ef72adc7ef"
+  inputs-digest = "d54468b0bc4f1dd9157d65a7e434f405821f6ba5802e2f8a89a002ff1579f3bc"
   solver-name = "gps-cdcl"
   solver-version = 1
